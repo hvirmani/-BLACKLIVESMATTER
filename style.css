@@ -46,7 +46,7 @@
 		.landing,
 		.main {
 			height: 100vh;
-			background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.6), rgba(48, 48, 0, 0.7)), url(https://images.pexels.com/photos/4613916/pexels-photo-4613916.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+			background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.6), rgba(48, 48, 0, 0.7)), url(images/bg.jpeg);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -549,14 +549,15 @@
 		.msg h2 {
 			font-family: 'Red Hat Display', sans-serif;
 			font-weight: 900;
-			background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
+			background: url(images/a.png);
 			background-size: 40%;
 			background-position: 50% 50%;
 			font-size: 120px;
 			-webkit-background-clip: text;
 			color: rgba(0, 0, 0, 0.2);
 			animation: zoomout 10s ease 500ms forwards;
-			animation-delay: 15s;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
 		}
 
 		@keyframes zoomout {
@@ -659,7 +660,7 @@
 		}
 
 		.main {
-			background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.6), rgba(48, 48, 0, 0.7)), url(https://images.pexels.com/photos/4552841/pexels-photo-4552841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+			background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.6), rgba(48, 48, 0, 0.7)), url(images/bg_1.jpeg);
 		}
 
 		.news img {
