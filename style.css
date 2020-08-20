@@ -696,8 +696,8 @@
 			}
 
 			.main_content {
-				min-height: 60vh;
-				height: auto;
+				min-height: 30vh;
+				height: 100%;
 				padding: 20px 10px;
 			}
 
