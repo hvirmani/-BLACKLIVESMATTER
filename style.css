@@ -669,6 +669,8 @@
 			background: linear-gradient(to right bottom, rgba(12, 12, 12, 0.6), rgba(48, 48, 0, 0.7)), url(images/bg_1.jpeg);
 			background-attachment: fixed;
 			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
 		}
 
 		.news img {
