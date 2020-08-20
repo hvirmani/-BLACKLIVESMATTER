@@ -13,10 +13,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Long Cang' rel='stylesheet'>
 	<link rel="stylesheet" href="style.css">
-	</head>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	 <link rel="icon" href="https://www.colorado.edu/mcdb/sites/default/files/styles/medium/public/article-image/logo-blm.png?itok=sbQ6vxqb" type="image/icon type">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
 
-<body onload="typeWriter();">
-	<div class="landing">
+<body onload="typeWriter();" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+ unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;">
+	<div class="landing animated fadeIn row" style="animation-duration: 2s; ">
 		<div class="navigation">
 			<img src="https://www.colorado.edu/mcdb/sites/default/files/styles/medium/public/article-image/logo-blm.png?itok=sbQ6vxqb" style="border-radius: 100%;" id="logo" alt="">
 			<div class="menu-toggle" id="menu" onclick="toggle();">
@@ -40,7 +46,7 @@
 			</div>
 		</div>
 		<div class="content">
-			<h1>Ler's Fight Racism</h1>
+			<h1 >Ler's Fight Racism</h1>
 			<h3>#BLACK LIVES MATTER</h3>
 			<div class="btn">
 				<a href="#veiw"><button>GIVE YOUR VEIWS</button></a>
@@ -55,11 +61,11 @@
 		<h2>What is #BlackLivesMatter</h2>
 		<p id="para"></p>
 	</div>
-	<div class="name">
+	<div class="name"   data-aos="fade-up" data-aos-duration="1000" >
 		<h1>NEWS</h1>
 		<hr style="background: #3b97e6;width: 35vw;text-align: center;margin: auto;height: 2px;max-width: 200px;margin-bottom: 50px;">
 	</div>
-	<div class="main" id="news">
+	<div class="main"   data-aos="fade-up" data-aos-duration="1000" id="news">
 
 		<div class="col-md-12 news">
 			<div class="col-md-4">
@@ -96,7 +102,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="demand" id="demand">
+	<div class="demand"   data-aos="fade-up" data-aos-duration="1000" id="demand">
 		<h1>DEMANDS</h1>
 		<hr style="background: #3b97e6;width: 35vw;text-align: center;margin: auto;height: 2px;max-width: 200px;margin-bottom: 50px;">
 		<div class="row" id="about_box">
@@ -149,10 +155,10 @@
 		</div>
 
 	</div>
-	<div class="msg">
+	<div class="msg"  data-aos="fade-up" data-aos-duration="1000" >
 		<h2>#BLACK LIVES MATTER</h2>
 	</div>
-	<div class="veiw" id="veiw">
+	<div class="veiw"   data-aos="fade-up" data-aos-duration="1000" id="veiw">
 		<h1>YOUR VEIW</h1>
 		<hr style="background: #3b97e6;width: 35vw;text-align: center;margin: auto;height: 2px;max-width: 200px;margin-bottom: 50px;">
 		<div class="veiw_main">
@@ -164,10 +170,10 @@
 			</form>
 		</div>
 	</div>
-	<div class="white">
+	<div class="white"  data-aos="fade-up" data-aos-duration="1000" >
 
 	</div>
-	<div class="footer_area" id="footer">
+	<div class="footer_area"   data-aos="fade-up" data-aos-duration="1000" id="footer">
 		<div class="media_icon" data-aos="fade-up" data-aos-duration="1000">
 			<i class="fa fa-facebook-f"></i>
 			<i class="fa fa-instagram"></i>
@@ -198,6 +204,11 @@
 			}
 		}
 	</script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
 </body>
 
 </html>
