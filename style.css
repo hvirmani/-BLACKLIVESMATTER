@@ -316,7 +316,7 @@
 		}
 
 		.main {
-			min-height: 220vh;
+			min-height: 200vh;
 			clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 10%);
 		}
 
@@ -592,7 +592,6 @@
 			background-clip: text;
 			-webkit-background-clip: text;
 			color: transparent;
-			animation-delay: 2s;
 			animation: shine 8s linear infinite;
 		}
 
@@ -624,16 +623,22 @@
 			color: #fff;
 			padding: 20px;
 			text-align: center;
+			min-height: 300px;
+			justify-content: center;
 		}
-
+.news img{
+	border: 2px solid transparent;
+}
+.news img:hover{
+	transform: scale(1.1);
+	border: 2px solid white;
+}
 		.news:nth-child(odd) {
-			background: gray;
 			transform: skewY(-6deg);
 			margin: 50px 0;
 		}
 
 		.news:nth-child(even) {
-			background: gray;
 			transform: skewY(6deg);
 		}
 
@@ -693,8 +698,8 @@
 			}
 
 			.main {
-				min-height: 250vh;
 				height: auto;
+				padding:20px 0 50px ;
 				max-height: 300vh;
 			}
 		}
